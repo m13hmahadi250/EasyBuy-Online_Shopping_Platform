@@ -23,7 +23,7 @@ const cost = document.getElementById('cost');
 const product_left = document.getElementById('product_left');
 const d_cost = document.getElementById('d_cost');
 const pay = document.getElementById('t_cost');
-const ord = document.getElementById('order_congo');
+const ord = document.getElementById('order_purchase');
 const od = document.getElementById('od');
 
 
@@ -151,7 +151,7 @@ function message_submit()
 
      if(name.value.length==0 || email.value.length==0 || message.value.length==0)
      {
-          div.innerHTML='fill up the form correctly'
+          div.innerHTML='fill up the form'
           show_message.appendChild(div)
      }
      else{
